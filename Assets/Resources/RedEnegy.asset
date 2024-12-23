@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4705a3146c283ec44b7f2a880772a138, type: 3}
+  m_Name: RedEnegy
+  m_EditorClassIdentifier: 
+  <EnergyName>k__BackingField: NonStopRed
+  <EnergyType>k__BackingField: 0
+  <Points>k__BackingField: 5
+  <Prefab>k__BackingField: {fileID: 7296840363663853095, guid: f8c20b9ae5b54434e80c63461682ed82, type: 3}
+  <Icon>k__BackingField: {fileID: 0}
