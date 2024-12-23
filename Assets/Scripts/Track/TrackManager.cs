@@ -34,6 +34,9 @@ public class TrackManager : MonoBehaviour
 
     private readonly int _previousSegment = -1;
 
+    /* If player reaches a certain distance from origin(given by FloatingOriginThreshold) - 
+     * moves everything back by that threshold to "reset" the player to the origin. 
+     * This allow to avoid floating point error on long run.*/
     private const float FloatingOriginThreshold = 10000f;
 
     private const float StartingSegmentDistance = 2f;
@@ -187,7 +190,7 @@ public class TrackManager : MonoBehaviour
         _currentZoneDistance = 0;
     }
 
-    private readonly Vector3 _offScreenSpawnPos = new Vector3(-100f, -100f, -100f);
+    private readonly Vector3 _offScreenSpawnPos = Vector3.zero;
 
     public void SpawnNewSegment()
     {
